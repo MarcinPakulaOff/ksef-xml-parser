@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fictional invoice for tests. NIPs and names are made up. -->
+<Faktura xmlns="http://crd.gov.pl/wzor/2025/06/25/13775/">
+  <Naglowek><KodFormularza kodSystemowy="FA (3)" wersjaSchemy="1-0E">FA</KodFormularza><WariantFormularza>3</WariantFormularza></Naglowek>
+  <Podmiot1><DaneIdentyfikacyjne><NIP>1111111111</NIP><Nazwa>Example Studio</Nazwa></DaneIdentyfikacyjne></Podmiot1>
+  <Podmiot2><DaneIdentyfikacyjne><NIP>222-222-22-22</NIP><Nazwa>Sample Bakery Ltd</Nazwa></DaneIdentyfikacyjne></Podmiot2>
+  <Fa>
+    <KodWaluty>PLN</KodWaluty>
+    <P_1>2026-10-27</P_1>
+    <P_2>FV 1/10/2026</P_2>
+    <P_6>2026-10-27</P_6>
+    <P_13_1>1500.00</P_13_1>
+    <P_14_1>345.00</P_14_1>
+    <P_13_3>100.00</P_13_3>
+    <P_14_3>5.00</P_14_3>
+    <P_15>1950.00</P_15>
+    <RodzajFaktury>VAT</RodzajFaktury>
+    <FaWiersz><NrWierszaFa>1</NrWierszaFa><P_7>Business website</P_7><PKWiU>62.01.11.0</PKWiU><P_8A>szt.</P_8A><P_8B>1</P_8B><P_9A>1500.00</P_9A><P_11>1500.00</P_11><P_12>23</P_12></FaWiersz>
+    <FaWiersz><NrWierszaFa>2</NrWierszaFa><P_7>Printed booklet</P_7><P_8A>szt.</P_8A><P_8B>2</P_8B><P_9A>50,00</P_9A><P_11>100.00</P_11><P_12>5</P_12></FaWiersz>
+    <Platnosc><TerminPlatnosci><Termin>2026-11-10</Termin></TerminPlatnosci></Platnosc>
+  </Fa>
+</Faktura>
